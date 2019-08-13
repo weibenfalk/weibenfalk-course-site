@@ -7,8 +7,7 @@ export const StyledUL = styled.ul`
   li {
     display: inline;
     margin: 0 20px 0 0;
-    font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: 'Maven Bold', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     transition: all 0.3s;
 

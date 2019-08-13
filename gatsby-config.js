@@ -36,22 +36,22 @@ module.exports = {
       },
     },
     'gatsby-plugin-styled-components',
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Maven Pro`,
-            subsets: [`latin`],
-            variants: [`400`, `500`, `700`, `900`]
-          },
-          {
-            family: `Open Sans`,
-            variants: [`400`, `700`]
-          },
-        ],
-      },
-    }
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Maven Pro`,
+    //         subsets: [`latin`],
+    //         variants: [`400`, `500`, `700`, `900`]
+    //       },
+    //       {
+    //         family: `Open Sans`,
+    //         variants: [`400`, `700`]
+    //       },
+    //     ],
+    //   },
+    // }
     // {
     //   resolve: 'gatsby-plugin-web-font-loader',
     //   options: {

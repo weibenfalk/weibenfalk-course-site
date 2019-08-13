@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledButton = styled.button`
-  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-family: 'Maven Bold', Arial, Helvetica, sans-serif;
   font-size: ${props => (props.size === 'small' ? '18px' : '12px')};
   background: ${props => (props.color === 'dark' ? '#4a717f' : '#fff')};
   color: ${props => (props.color === 'dark' ? '#fff' : '#7cb5c9')};

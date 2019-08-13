@@ -29,12 +29,11 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin-bottom: 2rem;
     color: inherit;
-    font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+    font-family: 'Maven Black', Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 2rem;
     line-height: 1.1;
-    font-weight: 900;
     text-align: center;
 
     @media (min-width: 768px) { text-align: left; }
@@ -45,24 +44,22 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+    font-family: 'Maven Black', Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 2.2rem;
     line-height: 1.1;
-    font-weight: 900;
   }
   h4 {
     margin: 0;
     padding: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+    font-family: 'Maven Regular', Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 2rem;
     line-height: 2.5rem;
-    font-weight: 400;
     text-align: center;
 
     @media (min-width: 768px) { text-align: left; }

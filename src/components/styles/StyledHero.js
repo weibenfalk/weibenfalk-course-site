@@ -4,6 +4,10 @@ export const StyledHero = styled.div`
   margin: 0 0 40px 0;
   text-align: center;
 
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+
   p {
     margin-bottom: 2.45rem;
   }
