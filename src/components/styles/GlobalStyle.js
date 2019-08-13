@@ -4,6 +4,10 @@ export const GlobalStyle = createGlobalStyle`
 
   @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900&display=swap');
   
+  .wf-loading {
+    visibility: hidden;
+  }
+
   html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
