@@ -1,6 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+
+  @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900&display=swap');
+  
   html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
