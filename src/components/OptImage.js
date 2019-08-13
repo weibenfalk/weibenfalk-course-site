@@ -4,7 +4,7 @@ import Img from 'gatsby-image';
 
 // Hackish component to get a dynamic image specified by prop filename
 
-const Image = ({ alt, filename }) => {
+const OptImage = ({ alt, filename }) => {
   const data = useStaticQuery(graphql`
     query {
       images: allFile {
@@ -33,4 +33,4 @@ const Image = ({ alt, filename }) => {
   return <Img alt={alt} fluid={image.node.childImageSharp.fluid} />;
 };
 
-export default Image;
+export default OptImage;

@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Header from './Header';
 import Footer from './Footer';
 
-const Layout = ({ children }) => {
+const SiteLayout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -25,8 +25,8 @@ const Layout = ({ children }) => {
   );
 };
 
-Layout.propTypes = {
+SiteLayout.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default Layout;
+export default SiteLayout;

@@ -1,18 +1,18 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
+import SiteLayout from '../components/SiteLayout';
 import SEO from '../components/seo';
 import Hero from '../components/Hero';
 import Courses from '../components/Courses';
 import Quotes from '../components/Quotes';
 
 const IndexPage = () => (
-  <Layout>
+  <SiteLayout>
     <SEO title="Home" />
     <Hero />
     <Courses />
     <Quotes />
-  </Layout>
+  </SiteLayout>
 );
 
 export default IndexPage;

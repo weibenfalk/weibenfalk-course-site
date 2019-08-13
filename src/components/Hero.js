@@ -7,7 +7,7 @@ import { useHeroContent } from '../hooks/useHeroContent';
 // Styled Component
 import { StyledHero } from './styles/StyledHero';
 
-import Image from './Image';
+import OptImage from './OptImage';
 import Button from './Button';
 
 const Hero = () => {
@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="col-md-6 hero-image-wrapper">
-          <Image alt="hero-image" filename={image} />
+          <OptImage alt="hero-image" filename={image} />
         </div>
       </div>
     </StyledHero>

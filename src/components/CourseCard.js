@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Image from './Image';
+import OptImage from './OptImage';
 import Button from './Button';
 
 // Styled Component
@@ -10,7 +10,7 @@ const CourseCard = ({ course }) => (
   <StyledCourseCard>
     <div className="row">
       <div className="col-md-3">
-        <Image alt={course.title} filename={course.image} />
+        <OptImage alt={course.title} filename={course.image} />
       </div>
       <div className="col-md-9">
         <h4>
