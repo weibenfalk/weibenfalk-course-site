@@ -6,7 +6,7 @@ import MainNav from './MainNav';
 
 import { StyledHeader, StyledHeaderContainer } from './styles/StyledHeader';
 
-const Header = ({ siteTitle }) => (
+const SiteHeader = ({ siteTitle }) => (
   <StyledHeader>
     <StyledHeaderContainer className="container">
       <img src={Logo} alt={siteTitle} />
@@ -15,12 +15,12 @@ const Header = ({ siteTitle }) => (
   </StyledHeader>
 );
 
-Header.propTypes = {
+SiteHeader.propTypes = {
   siteTitle: PropTypes.string,
 };
 
-Header.defaultProps = {
+SiteHeader.defaultProps = {
   siteTitle: ``,
 };
 
-export default Header;
+export default SiteHeader;
