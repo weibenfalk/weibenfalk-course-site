@@ -1,13 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-
-  @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900&display=swap');
-  
-  .wf-loading {
-    visibility: hidden;
-  }
-
   html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -44,9 +37,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 900;
     text-align: center;
 
-    @media (min-width: 576px) { ... }
     @media (min-width: 768px) { text-align: left; }
-    @media (min-width: 992px) { ... }
     @media (min-width: 1200px) { font-size: 3rem; }
   }
   h3 {
@@ -74,9 +65,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     text-align: center;
 
-    @media (min-width: 576px) { ... }
     @media (min-width: 768px) { text-align: left; }
-    @media (min-width: 992px) { ... }
     @media (min-width: 1200px) { font-size: 2.2rem; }
   }
   h5 {
@@ -113,16 +102,8 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 26px;
     text-align: center;
 
-    @media (min-width: 576px) {
-    ...;
-  }
-
   @media (min-width: 768px) {
     text-align: left;
-  }
-
-  @media (min-width: 992px) {
-    ...;
   }
 
     @media (min-width: 1200px) {
