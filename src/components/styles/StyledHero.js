@@ -11,20 +11,4 @@ export const StyledHero = styled.div`
   .hero-image-wrapper {
     /* padding: 0; */
   }
-
-  @media (min-width: 576px) {
-    ...;
-  }
-
-  @media (min-width: 768px) {
-    text-align: left;
-  }
-
-  @media (min-width: 992px) {
-    ...;
-  }
-
-  @media (min-width: 1200px) {
-    ...;
-  }
 `;
