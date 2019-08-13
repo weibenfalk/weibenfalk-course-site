@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="79px" viewBox="0 0 79 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M42.1014733,4.69398437 C41.6069371,2.84632812 40.1498625,1.39117187 38.2998202,0.89734375 C34.9464857,0 21.5,0 21.5,0 C21.5,0 8.05359307,0 4.70017981,0.89734375 C2.85013751,1.39125 1.39306287,2.84632813 0.898526735,4.69398437 C0,8.04296875 0,15.0303125 0,15.0303125 C0,15.0303125 0,22.0176563 0.898526735,25.3666406 C1.39306287,27.2142969 2.85013751,28.6088281 4.70017981,29.1026563 C8.05359307,30 21.5,30 21.5,30 C21.5,30 34.9464069,30 38.2998202,29.1026563 C40.1498625,28.6088281 41.6069371,27.2142969 42.1014733,25.3666406 C43,22.0176562 43,15.0303125 43,15.0303125 C43,15.0303125 43,8.04296875 42.1014733,4.69398437 Z M17,21 L17,8 L28,14.5001601 L17,21 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extra-large:-Desktops---12-col" transform="translate(-161.000000, -2186.000000)">
+            <g id="Group-8" transform="translate(161.000000, 2186.000000)">
+                <circle id="Oval" fill="#4A717F" cx="39.5" cy="39.5" r="39.5"></circle>
+                <g id="youtube" transform="translate(18.000000, 24.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
