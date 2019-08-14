@@ -20,7 +20,9 @@ const Hero = () => {
           <div className="text-wrapper col-md-6">
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <div className="buttons-wrapper">
-              <Button color="dark" text={cta1} />
+              <a href="https://www.udemy.com/courses/search/?src=ukw&q=weibenfalk">
+                <Button color="dark" text={cta1} />
+              </a>
               <Button text={cta2} />
             </div>
           </div>

@@ -17,7 +17,9 @@ const CourseCard = ({ course }) => (
           <b>{course.title}</b> - {course.subtitle}
         </h4>
         <p>{course.excerpt}</p>
-        <Button size="small" color="dark" text={course.cta1} />
+        <a href={course.cta1Link}>
+          <Button size="small" color="dark" text={course.cta1} />
+        </a>
         <Button size="small" text={course.cta2} />
       </div>
     </div>

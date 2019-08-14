@@ -1,5 +1,5 @@
 ---
 type: "quote"
-author: "Test Testsson"
+author: "Rahul RK"
 ---
-In hac habitasse platea dictumst. Duis porttitor vestibulum mauris, eget vehicula enim convallis feugiat. Vivamus et ante sagittis
+Enjoying every bit of the course!! He is expalining everything in so detail and with such clarity that you feel you are an experienced programmer.

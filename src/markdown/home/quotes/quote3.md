@@ -1,5 +1,5 @@
 ---
 type: "quote"
-author: "Test Testsson 3"
+author: "Tushar Sikand"
 ---
-In hac habitasse platea dictumst. Duis porttitor vestibulum mauris, eget vehicula enim convallis feugiat. Vivamus et ante sagittis
+The instructor was very creative in figuring out a nice illustrative use case for the Movie DB API.

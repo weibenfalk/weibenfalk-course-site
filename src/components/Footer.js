@@ -12,16 +12,28 @@ const Footer = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-            <img
-              className="social twitter"
-              src={TwitterIcon}
-              alt="weiben-twitter"
-            />
-            <img
-              className="social youtube"
-              src={YoutubeIcon}
-              alt="weiben-youtube"
-            />
+            <a
+              href="https://twitter.com/weibenfalk"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                className="social twitter"
+                src={TwitterIcon}
+                alt="weiben-twitter"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/user/Weibenfalk"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                className="social youtube"
+                src={YoutubeIcon}
+                alt="weiben-youtube"
+              />
+            </a>
           </div>
           <div className="col-md-9 email-form">
             <form>

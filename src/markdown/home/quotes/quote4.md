@@ -1,5 +1,5 @@
 ---
 type: "quote"
-author: "Test Testsson 4"
+author: "Ian Baylis"
 ---
-In hac habitasse platea dictumst. Duis porttitor vestibulum mauris, eget vehicula enim convallis feugiat. Vivamus et ante sagittis
+This was a well put together course. I was looking for a way to integrate gatsby and WordPress, and this course not only fit the bill but exceeded my expectations...plus, after some tinkering, you get a template project that you can use to build other projects for clients and portfolios. Well done

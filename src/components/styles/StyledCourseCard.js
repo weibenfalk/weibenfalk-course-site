@@ -9,6 +9,16 @@ export const StyledCourseCard = styled.div`
   box-shadow: 5px 6px rgba(124, 181, 201, 0.5);
   text-align: center;
 
+  a {
+    display: block;
+    margin: 0 0 20px 0;
+
+    @media (min-width: 768px) {
+      display: inline;
+      margin: 0 10px 10px 0;
+    }
+  }
+
   @media (min-width: 768px) {
     text-align: left;
   }
@@ -18,8 +28,11 @@ export const StyledCourseCard = styled.div`
   }
 
   p {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 26px;
-    margin: 0 0 40px 0;
+    display: none;
+
+    @media (min-width: 575px) {
+      text-align: left;
+      display: block;
+    }
   }
 `;

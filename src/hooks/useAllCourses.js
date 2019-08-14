@@ -16,7 +16,9 @@ export const useAllCourses = () => {
               subtitle
               excerpt
               cta1
+              cta1Link
               cta2
+              cta2Link
               image
             }
           }

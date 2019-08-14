@@ -17,7 +17,11 @@ const Quotes = () => {
       <div className="row">
         {quotes.map(({ node: { frontmatter: { author }, html, id } }, i) => (
           <div key={id} className="col-md-6">
-            <Quote dark={i % 3 === 0} author={author} quote={html} />
+            <Quote
+              dark={i % 3 === 0 || i % 4 === 0}
+              author={author}
+              quote={html}
+            />
           </div>
         ))}
       </div>
