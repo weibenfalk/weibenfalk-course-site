@@ -9,7 +9,7 @@ import { StyledCourseCard } from './styles/StyledCourseCard';
 const CourseCard = ({ course }) => (
   <StyledCourseCard>
     <div className="row">
-      <div className="col-md-3">
+      <div className="col-md-3 course-image">
         <OptImage alt={course.title} filename={course.image} />
       </div>
       <div className="col-md-9">

@@ -9,6 +9,15 @@ export const StyledCourseCard = styled.div`
   box-shadow: 5px 6px rgba(124, 181, 201, 0.5);
   text-align: center;
 
+  .course-image {
+    width: 70%;
+    margin: 20px auto;
+
+    @media (min-width: 768px) {
+      width: 100%;
+    }
+  }
+
   a {
     display: block;
     margin: 0 0 20px 0;
