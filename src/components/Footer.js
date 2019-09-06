@@ -11,31 +11,33 @@ const Footer = () => (
     <div className="wrapper">
       <div className="container">
         <div className="row">
-          <div className="col-md-3">
-            <a
-              href="https://twitter.com/weibenfalk"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                className="social twitter"
-                src={TwitterIcon}
-                alt="weiben-twitter"
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/user/Weibenfalk"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                className="social youtube"
-                src={YoutubeIcon}
-                alt="weiben-youtube"
-              />
-            </a>
+          <div className="col-md-12">
+            <center>
+              <a
+                href="https://twitter.com/weibenfalk"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  className="social twitter"
+                  src={TwitterIcon}
+                  alt="weiben-twitter"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/user/Weibenfalk"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  className="social youtube"
+                  src={YoutubeIcon}
+                  alt="weiben-youtube"
+                />
+              </a>
+            </center>
           </div>
-          <div className="col-md-9 email-form">
+          {/* <div className="col-md-9 email-form">
             <form>
               <input
                 className="email"
@@ -45,7 +47,7 @@ const Footer = () => (
               />
               <button type="submit">Register Email</button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -15,7 +15,14 @@ export const StyledHeaderContainer = styled.div`
   max-width: 1100px; */
 
   img {
-    margin: 0;
+    margin: 0 auto;
+    width: 180px;
+    height: auto;
+
+    @media (min-width: 575px) {
+      width: 250px;
+      margin: 0;
+    }
   }
 
   a {

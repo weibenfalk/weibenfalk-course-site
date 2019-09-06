@@ -1,24 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="261px" height="34px" viewBox="0 0 261 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
-    <title>Group 7</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Extra-large:-Desktops---12-col" transform="translate(-165.000000, -58.000000)">
-            <g id="Group-7" transform="translate(165.000000, 51.000000)">
-                <text id="WEIBENFALK" font-family="TitilliumWeb-SemiBold, Titillium Web" font-size="32" font-weight="500" fill="#4A4A4A">
-                    <tspan x="77" y="36">WEIBENFALK</tspan>
-                </text>
-                <g id="Group" transform="translate(0.000000, 7.000000)" fill="#7CB5C9">
-                    <rect id="Rectangle" x="0" y="0" width="14" height="34"></rect>
-                    <polygon id="Rectangle-Copy-3" transform="translate(20.005814, 17.652634) rotate(-315.000000) translate(-20.005814, -17.652634) " points="12.6932326 1.84654885 27.0926705 16.2459867 27.3183955 33.4587192 12.8989395 32.8699488"></polygon>
-                    <polygon id="Rectangle-Copy-4" transform="translate(31.894648, 17.711782) scale(-1, 1) rotate(-315.000000) translate(-31.894648, -17.711782) " points="24.6942746 1.87713726 39.0937124 16.2765751 39.0950215 33.5464273 24.8999815 32.9005372"></polygon>
-                    <rect id="Rectangle-Copy-5" x="38" y="0" width="14" height="34"></rect>
-                </g>
-                <rect id="Rectangle" fill="#7CB5C9" x="52" y="7" width="9" height="10"></rect>
-                <rect id="Rectangle-Copy-11" fill="#7CB5C9" x="52" y="20" width="9" height="10"></rect>
-                <polygon id="Path-3" fill="#49889E" points="38 40.7414234 26 8.42356453 38 20.7973633"></polygon>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 261 34" style="enable-background:new 0 0 261 34;" xml:space="preserve">
+<style type="text/css">
+	.st0{enable-background:new    ;}
+	.st1{fill:#4A4A4A;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#7CB5C9;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#49889E;}
+</style>
+<title>Group 7</title>
+<desc>Created with Sketch.</desc>
+<g id="Group-7" transform="translate(165.000000, 51.000000)">
+	<g class="st0">
+		<path class="st1" d="M-87-44.1h2.6l3.8,20h0.9l4.5-19.8h2.9l4.5,19.8h0.9l3.8-20h2.5L-65.1-22h-4.5l-4.2-18.9L-78-22h-4.5
+			L-87-44.1z"/>
+		<path class="st1" d="M-56.9-22v-22.1h13.5v2.2h-11v7.6h9.1v2.1h-9.1v8h11v2.2H-56.9z"/>
+		<path class="st1" d="M-39.2-22v-22.1h2.5V-22H-39.2z"/>
+		<path class="st1" d="M-31.4-44.1h8c2.2,0,3.8,0.5,4.9,1.4c1.1,0.9,1.6,2.3,1.6,4.3c0,1.4-0.2,2.5-0.7,3.2
+			c-0.5,0.8-1.2,1.4-2.1,1.8c2.3,0.8,3.5,2.5,3.5,5.2c0,2.2-0.6,3.8-1.8,4.8s-2.9,1.4-5.1,1.4h-8.4V-44.1z M-23.4-42h-5.5v7.6h5.7
+			c1.4,0,2.4-0.3,3-1c0.6-0.7,0.9-1.6,0.9-2.9c0-1.3-0.3-2.3-1-2.8S-22-42-23.4-42z M-23.2-32.2h-5.7v8h5.9c1.5,0,2.6-0.3,3.3-0.9
+			c0.8-0.6,1.1-1.7,1.1-3.2c0-0.8-0.2-1.5-0.5-2c-0.3-0.6-0.7-0.9-1.2-1.2C-21.2-32-22.2-32.2-23.2-32.2z"/>
+		<path class="st1" d="M-11.6-22v-22.1H1.8v2.2h-11v7.6h9.1v2.1h-9.1v8h11v2.2H-11.6z"/>
+		<path class="st1" d="M6-22v-22.1h4.6l8.5,20h0.7v-20h2.4V-22h-4.5L9.1-42H8.5v20H6z"/>
+		<path class="st1" d="M27.7-22v-22.1h13.2v2.2H30.1v8.6h9.1v2.2h-9.1v9.2H27.7z"/>
+		<path class="st1" d="M41.5-22l6.1-22.1h5.4L59-22h-2.4L55-27.7h-9.5L43.9-22H41.5z M49.4-42L46-29.9h8.4L51.1-42H49.4z"/>
+		<path class="st1" d="M74.7-22H62.5v-22.1H65v19.9h9.7V-22z"/>
+		<path class="st1" d="M80.3-22h-2.5v-22.1h2.5v10.3l3.6-0.1l5.7-10.2h2.8L86.1-33l6.7,11h-2.9L84-31.8l-3.7,0.1V-22z"/>
+	</g>
+	<g id="Group" transform="translate(0.000000, 7.000000)">
+		<rect id="Rectangle" x="-165" y="-58" class="st2" width="14" height="34"/>
+		<polygon id="Rectangle-Copy-3" class="st2" points="-139,-56.7 -139,-36.3 -151,-24 -160.8,-34.6 		"/>
+		<polygon id="Rectangle-Copy-4" class="st2" points="-139.2,-56.6 -139.2,-36.2 -127,-24 -117.4,-34.5 		"/>
+		<rect id="Rectangle-Copy-5" x="-127" y="-58" class="st2" width="14" height="34"/>
+	</g>
+	<rect x="-113" y="-51" class="st2" width="9" height="10"/>
+	<rect id="Rectangle-Copy-11" x="-113" y="-38" class="st2" width="9" height="10"/>
+	<polygon id="Path-3" class="st3" points="-127,-17.3 -139,-49.6 -127,-37.2 	"/>
+</g>
 </svg>

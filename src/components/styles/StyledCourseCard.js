@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledCourseCard = styled.div`
   background: #fff;
   min-height: 200px;
-  margin: 20px 0;
+  margin: 20px 0 40px 0;
   padding: 40px;
   border-radius: 40px;
   box-shadow: 5px 6px rgba(124, 181, 201, 0.5);

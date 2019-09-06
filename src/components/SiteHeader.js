@@ -10,7 +10,7 @@ const SiteHeader = ({ siteTitle }) => (
   <StyledHeader>
     <StyledHeaderContainer className="container">
       <img src={Logo} alt={siteTitle} />
-      <MainNav />
+      {/* <MainNav /> */}
     </StyledHeaderContainer>
   </StyledHeader>
 );
