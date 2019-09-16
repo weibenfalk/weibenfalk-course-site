@@ -1,5 +1,6 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
+import { Link } from 'gatsby';
 
 // Custom Hook
 import { useHeroContent } from '../hooks/useHeroContent';
@@ -11,7 +12,7 @@ import OptImage from './OptImage';
 import Button from './Button';
 
 const Hero = () => {
-  const { html, cta1, cta2, image } = useHeroContent();
+  const { html, cta1, cta1Link, cta2, cta2Link, image } = useHeroContent();
 
   return (
     <StyledHero>
@@ -20,10 +21,12 @@ const Hero = () => {
           <div className="text-wrapper col-md-6">
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <div className="buttons-wrapper">
-              <a href="https://www.udemy.com/courses/search/?src=ukw&q=weibenfalk">
+              <a href={cta1Link}>
                 <Button color="dark" text={cta1} />
               </a>
-              <Button text={cta2} />
+              {/* <Link to={cta2Link}>
+                <Button text={cta2} />
+              </Link> */}
             </div>
           </div>
           <div className="col-md-6 hero-image-wrapper">

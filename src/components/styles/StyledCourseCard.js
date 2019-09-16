@@ -9,6 +9,15 @@ export const StyledCourseCard = styled.div`
   box-shadow: 5px 6px rgba(124, 181, 201, 0.5);
   text-align: center;
 
+  h6 {
+    background: #d7e7ec;
+    max-width: 220px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #fff;
+  }
+
   .course-image {
     width: 70%;
     margin: 20px auto;
@@ -33,11 +42,18 @@ export const StyledCourseCard = styled.div`
   }
 
   h4 {
-    color: #40869e;
+    font-family: 'Arial';
+  }
+
+  h5 {
+    font-family: 'Arial';
+    font-size: 1.2rem;
   }
 
   p {
     display: none;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
 
     @media (min-width: 575px) {
       text-align: left;

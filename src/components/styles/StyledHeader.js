@@ -10,9 +10,13 @@ export const StyledHeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 20px;
+  padding: 20px 20px;
   /* margin: 0 auto;
   max-width: 1100px; */
+
+  @media (min-width: 575px) {
+    padding: 40px 20px;
+  }
 
   img {
     margin: 0 auto;

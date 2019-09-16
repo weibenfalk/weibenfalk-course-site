@@ -10,6 +10,7 @@ export const useAllCourses = () => {
           node {
             frontmatter {
               type
+              premium
               path
               date
               title
@@ -19,6 +20,8 @@ export const useAllCourses = () => {
               cta1Link
               cta2
               cta2Link
+              cta3
+              cta3Link
               image
             }
           }
