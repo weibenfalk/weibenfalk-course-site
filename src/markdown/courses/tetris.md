@@ -10,6 +10,6 @@ cta1: "Enroll for FREE"
 cta1Link: "https://weibenfalk.teachable.com/p/react-tetris-with-hooks"
 cta2: "Learn More"
 cta2Link: "https://weibenfalk.teachable.com/p/react-tetris-with-hooks"
-image: "weiben-course-tetris.png"
+image: "tetris-homepage.jpg"
 ---
 Writing in Markdown is _not_ that hard!

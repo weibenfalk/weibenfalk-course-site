@@ -19,11 +19,9 @@ export const StyledCourseCard = styled.div`
   }
 
   .course-image {
-    width: 70%;
-    margin: 20px auto;
-
-    @media (min-width: 768px) {
-      width: 100%;
+    img {
+      width: 100% !important;
+      border-radius: 20px;
     }
   }
 

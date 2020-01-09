@@ -13,7 +13,7 @@ const OptImage = ({ alt, filename }) => {
             relativePath
             name
             childImageSharp {
-              fluid(maxWidth: 600) {
+              fluid(maxWidth: 700) {
                 ...GatsbyImageSharpFluid
               }
             }
