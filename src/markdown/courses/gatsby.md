@@ -1,7 +1,7 @@
 ---
 type: "course"
 premium: "true"
-path: "/courses/beginner-react"
+path: "/courses/gatsby-wordpress"
 date: "2019-08-11"
 title: "Gatsby with Wordpress"
 subtitle: "Use Wordpress as a headless CMS with Gatsby."

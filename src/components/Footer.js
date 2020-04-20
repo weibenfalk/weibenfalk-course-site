@@ -37,17 +37,6 @@ const Footer = () => (
               </a>
             </center>
           </div>
-          {/* <div className="col-md-9 email-form">
-            <form>
-              <input
-                className="email"
-                type="text"
-                name="email"
-                placeholder="Want to get the latest news?"
-              />
-              <button type="submit">Register Email</button>
-            </form>
-          </div> */}
         </div>
       </div>
     </div>

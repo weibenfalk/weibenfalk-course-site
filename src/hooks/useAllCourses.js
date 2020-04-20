@@ -5,7 +5,10 @@ export const useAllCourses = () => {
     allMarkdownRemark: { edges },
   } = useStaticQuery(graphql`
     query AllCoursesQuery {
-      allMarkdownRemark(filter: { frontmatter: { type: { eq: "course" } } }) {
+      allMarkdownRemark(
+        filter: { frontmatter: { type: { eq: "course" } } }
+        sort: { order: DESC, fields: frontmatter___date }
+      ) {
         edges {
           node {
             frontmatter {
