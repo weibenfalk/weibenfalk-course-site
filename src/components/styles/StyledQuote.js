@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 
 export const StyledQuote = styled.div`
+  box-sizing: border-box;
   background: ${props => (props.dark ? '#7cb5c9' : '#d1e6ed')};
   border-radius: 40px;
   min-height: 100px;
   padding: 15px 20px;
-  margin: 40px 20px;
+  margin: 40px 0;
   transform: ${props =>
     props.dark
       ? `rotate(-${2 + Math.random() * 4}deg)`
       : `rotate(${2 + Math.random() * 4}deg)`};
+  width: 100%;
 
   @media (min-width: 575px) {
     padding: 25px 40px;

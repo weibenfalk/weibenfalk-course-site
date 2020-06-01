@@ -12,11 +12,11 @@ const Quotes = () => {
   const quotes = useAllQuotes();
 
   return (
-    <StyledQuotes className="container">
+    <StyledQuotes className='container'>
       <h2>What people are saying ...</h2>
-      <div className="row">
+      <div className='row' style={{ width: '100%' }}>
         {quotes.map(({ node: { frontmatter: { author }, html, id } }, i) => (
-          <div key={id} className="col-md-6">
+          <div key={id} className='col-md-6'>
             <Quote
               dark={i % 3 === 0 || i % 4 === 0}
               author={author}

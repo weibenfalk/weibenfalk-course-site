@@ -9,7 +9,7 @@ import Quotes from '../components/Quotes';
 
 const IndexPage = () => (
   <SiteLayout>
-    <SEO title='Home' />
+    <SEO title="Home" />
     <Hero />
     {/* <Subscribe /> */}
     <Courses />
