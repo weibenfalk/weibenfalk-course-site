@@ -8,6 +8,33 @@ export const StyledCourseCard = styled.div`
   border-radius: 40px;
   box-shadow: 5px 6px rgba(124, 181, 201, 0.5);
   text-align: center;
+  position: relative;
+
+  ::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    content: '90% off!';
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    background: rgb(227, 80, 80);
+    background: linear-gradient(
+      0deg,
+      rgba(227, 80, 80, 1) 0%,
+      rgba(255, 159, 158, 1) 57%
+    );
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: 800;
+    z-index: 1000;
+    transform: rotate(20deg);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.27);
+    color: white;
+  }
 
   h6 {
     background: #d7e7ec;
