@@ -11,11 +11,27 @@ export const StyledHeaderContainer = styled.div`
   max-width: 1100px; */
   margin-top: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
   @media (min-width: 768px) {
-    display: block;
+    /* display: block; */
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social {
+    a {
+      margin: 5px;
+      img {
+        max-width: 40px;
+
+        @media (max-width: 600px) {
+          max-width: 30px;
+        }
+      }
+    }
   }
 
   img {
@@ -24,8 +40,8 @@ export const StyledHeaderContainer = styled.div`
     height: auto;
 
     @media (min-width: 575px) {
-      width: 300px;
-      margin: 0 -3px;
+      width: 250px;
+      margin: 0 0 20px 7px;
     }
   }
 
