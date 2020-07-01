@@ -12,7 +12,7 @@ cta1Link: "https://weibenfalk.teachable.com/p/svelte/?coupon_code=WBN-LIMITED"
 cta2: "Learn More"
 cta2Link: "https://weibenfalk.teachable.com/p/svelte/?coupon_code=WBN-LIMITED"
 
-image: "svelte-2020.png"
+image: "svelte2.png"
 ---
 Writing in Markdown is _not_ that hard!
 

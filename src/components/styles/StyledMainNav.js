@@ -11,14 +11,14 @@ export const StyledUL = styled.ul`
     text-transform: uppercase;
     transition: all 0.3s;
 
-    :last-child {
+    /* :last-child {
       margin: 0;
 
       :after {
         margin-left: 5px;
         content: url(${props => props.loginImg});
       }
-    }
+    } */
 
     :hover {
       opacity: 0.5;

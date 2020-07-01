@@ -1,6 +1,6 @@
 ---
 type: "hero"
-image: "weiben-start-hero.jpg"
+image: "weiben-start-hero3.png"
 cta1: "All courses"
 cta1Link: "https://weibenfalk.teachable.com/"
 cta2: "Learn More"

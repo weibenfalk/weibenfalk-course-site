@@ -2,16 +2,16 @@
 type: "menu"
 items: [
       { 
-        name: 'Blog',
-        link: '/blog' 
+        name: 'Uses',
+        link: '/uses' 
       },
-      {
-        name: 'About',
-        link: '/about',
-      },
-      {
-        name: 'Login',
-        link: '/login',
-      },
+      # {
+      #   name: 'About',
+      #   link: '/about',
+      # },
+      # {
+      #   name: 'Login',
+      #   link: '/login',
+      # },
     ]
 ---

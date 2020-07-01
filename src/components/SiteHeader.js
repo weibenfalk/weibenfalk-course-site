@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'gatsby';
 
-import Logo from '../images/weiben-logo.svg';
+import Logo from '../images/weiben-logo-new.svg';
 import MainNav from './MainNav';
 
 import { StyledHeader, StyledHeaderContainer } from './styles/StyledHeader';

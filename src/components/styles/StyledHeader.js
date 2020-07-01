@@ -1,21 +1,21 @@
 import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
-  background: #fff;
   color: #4a4a4a;
-  margin-bottom: 2.45rem;
+  margin-bottom: 1rem;
 `;
 
 export const StyledHeaderContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 20px;
+  padding: 0;
   /* margin: 0 auto;
   max-width: 1100px; */
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  @media (min-width: 575px) {
-    padding: 40px 20px;
+  @media (min-width: 768px) {
+    display: block;
   }
 
   img {
@@ -24,8 +24,8 @@ export const StyledHeaderContainer = styled.div`
     height: auto;
 
     @media (min-width: 575px) {
-      width: 250px;
-      margin: 0;
+      width: 300px;
+      margin: 0 -3px;
     }
   }
 

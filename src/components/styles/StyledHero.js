@@ -5,7 +5,7 @@ export const StyledHero = styled.div`
   text-align: center;
 
   a {
-    margin: 0 10px 20px 0;
+    text-decoration: none;
   }
 
   .hero-image-wrapper {

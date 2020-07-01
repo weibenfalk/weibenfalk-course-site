@@ -3,8 +3,8 @@ import React from 'react';
 // Styled Component
 import { StyledFooter } from './styles/StyledFooter';
 
-import TwitterIcon from '../images/weiben-twitter.svg';
-import YoutubeIcon from '../images/weiben-youtube.svg';
+import TwitterIcon from '../images/weiben-twitter2.svg';
+import YoutubeIcon from '../images/weiben-youtube2.svg';
 
 const Footer = () => (
   <StyledFooter>

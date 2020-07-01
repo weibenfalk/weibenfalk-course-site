@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledQuote = styled.div`
   box-sizing: border-box;
-  background: ${props => (props.dark ? '#7cb5c9' : '#d1e6ed')};
+  background: ${props => (props.dark ? '#1E8B9A' : '#C6F1F6')};
   border-radius: 40px;
   min-height: 100px;
   padding: 15px 20px;
@@ -54,7 +54,7 @@ export const StyledQuote = styled.div`
     height: 0;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    border-top: 30px solid ${props => (props.dark ? '#7cb5c9' : '#d1e6ed')};
+    border-top: 30px solid ${props => (props.dark ? '#1E8B9A' : '#C6F1F6')};
     clear: both;
   }
 `;
