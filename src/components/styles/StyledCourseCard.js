@@ -15,7 +15,7 @@ export const StyledCourseCard = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    content: '90% off!';
+    content: '70% off!';
     position: absolute;
     top: 20px;
     right: 20px;
