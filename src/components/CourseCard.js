@@ -8,7 +8,7 @@ import Button from './Button';
 import { StyledCourseCard } from './styles/StyledCourseCard';
 
 const CourseCard = ({ course }) => (
-  <StyledCourseCard>
+  <StyledCourseCard discountText={course.discount}>
     <div className="row">
       <div className="col-md-3 course-image">
         <OptImage alt={course.title} filename={course.image} />

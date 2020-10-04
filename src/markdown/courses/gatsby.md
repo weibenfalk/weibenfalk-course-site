@@ -1,9 +1,10 @@
 ---
 type: "course"
 premium: "true"
+discount: "70% off!"
 path: "/courses/gatsby-wordpress"
 date: "2019-08-11"
-title: "Gatsby Course | Wordpress"
+title: "Gatsby with Wordpress"
 subtitle: "Use Wordpress as a headless CMS with Gatsby."
 excerpt: "Use React and the static site generator Gatsby to build a front end for a Wordpress site."
 cta1: "Enroll course"

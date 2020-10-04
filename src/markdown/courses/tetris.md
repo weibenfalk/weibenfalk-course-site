@@ -1,6 +1,7 @@
 ---
 type: "course"
 premium: "false"
+discount: "none"
 path: "/courses/tetris"
 date: "2019-08-11"
 title: "React Tetris with Hooks API"

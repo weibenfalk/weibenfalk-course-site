@@ -11,11 +11,11 @@ export const StyledCourseCard = styled.div`
   position: relative;
 
   ::before {
-    display: flex;
+    display: ${props => (props.discountText === 'none' ? 'none' : 'flex')};
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    content: '70% off!';
+    content: '${props => props.discountText}';
     position: absolute;
     top: 20px;
     right: 20px;

@@ -14,6 +14,7 @@ export const useAllCourses = () => {
             frontmatter {
               type
               premium
+              discount
               path
               date
               title
