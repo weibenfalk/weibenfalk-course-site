@@ -1,5 +1,6 @@
 ---
 type: "course"
+published: "true"
 premium: "true"
 discount: "70% off!"
 path: "/courses/svelte"

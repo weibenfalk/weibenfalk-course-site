@@ -12,13 +12,14 @@ const Courses = () => {
 
   return (
     <StyledCourses>
-      <div className="container">
-        <div className="row">
-          <div className="col-md">
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md'>
             <h2>Premium Courses</h2>
             {courses.map(
               course =>
-                course.node.frontmatter.premium === 'true' && (
+                course.node.frontmatter.premium === 'true' &&
+                course.node.frontmatter.published === 'true' && (
                   <CourseCard
                     key={course.node.frontmatter.title}
                     course={course.node.frontmatter}
@@ -27,8 +28,8 @@ const Courses = () => {
             )}
           </div>
         </div>
-        <div className="row">
-          <div className="col-md">
+        <div className='row'>
+          <div className='col-md'>
             <h2>Free Courses</h2>
             {courses.map(
               course =>

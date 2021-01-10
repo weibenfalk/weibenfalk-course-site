@@ -1,5 +1,6 @@
 ---
 type: "course"
+published: "true"
 premium: "true"
 discount: "60% off!"
 path: "/courses/beginner-react"

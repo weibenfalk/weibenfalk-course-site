@@ -13,6 +13,7 @@ export const useAllCourses = () => {
           node {
             frontmatter {
               type
+              published
               premium
               discount
               path

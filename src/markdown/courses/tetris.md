@@ -1,5 +1,6 @@
 ---
 type: "course"
+published: "true"
 premium: "false"
 discount: "none"
 path: "/courses/tetris"
