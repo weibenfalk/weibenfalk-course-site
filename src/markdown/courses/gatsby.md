@@ -1,6 +1,6 @@
 ---
 type: "course"
-published: "false"
+published: "true"
 premium: "true"
 discount: "60% off!"
 path: "/courses/gatsby-wordpress"
