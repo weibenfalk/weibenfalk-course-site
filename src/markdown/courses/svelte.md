@@ -1,6 +1,6 @@
 ---
 type: "course"
-published: "true"
+published: "false"
 premium: "false"
 discount: "none"
 path: "/courses/svelte"
