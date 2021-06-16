@@ -11,7 +11,7 @@ excerpt: "Do you love movies as much as I do? And are you tired of trying to fin
 cta1: "Enroll course"
 cta1Link: "https://weibenfalk.teachable.com/purchase?product_id=3197147"
 cta2: "Learn More"
-cta2Link: "https://weibenfalk.teachable.com/p/react-essentials/?product_id=2463005"
+cta2Link: "https://weibenfalk.teachable.com/p/react-essentials"
 cta3: "See it live"
 cta3Link: "https://weibenrmdb.netlify.com/"
 image: "react-essentials.jpg"
