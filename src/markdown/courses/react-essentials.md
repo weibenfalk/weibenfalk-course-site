@@ -2,7 +2,7 @@
 type: "course"
 published: "true"
 premium: "false"
-discount: "60% off!"
+discount: "none"
 path: "/courses/beginner-react"
 date: "2021-03-04"
 title: "React Essentials | Movie App"
