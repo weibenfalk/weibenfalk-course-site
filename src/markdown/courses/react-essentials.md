@@ -1,7 +1,7 @@
 ---
 type: "course"
 published: "true"
-premium: "true"
+premium: "false"
 discount: "60% off!"
 path: "/courses/beginner-react"
 date: "2021-03-04"
